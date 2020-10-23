@@ -42,6 +42,8 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
+            border: solid gray;
+            border-width: 2px;
         }
         .text-input {
             border-width: 0px;
@@ -63,6 +65,8 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
+            border: solid green;
+            border-width: 2px;
         }
         .login-btn {
             border-width: 0px;
