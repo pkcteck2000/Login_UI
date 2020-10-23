@@ -75,10 +75,19 @@
             border-width: 0px;
             background-color: rgba(1, 1, 1, 0);
             color: black;
-            font-size: 15px;
+            font-size: 20px;
+            font-weight: bold;
         }
         .login-btn:focus {
             outline: none;
+        }
+        .forgot-password-container {
+            text-align: right;
+            padding-top: 10px;
+        }
+        .forgot-password-text {
+            font-weight: bold;
+            color: gray;
         }
         .fa {
             padding: 15px;
@@ -216,6 +225,9 @@
                         <i class="fa fa-lock"></i>
                         <input class="text-input" type="password" name="username" placeholder="Enter password">
                     </div> 
+                    <div class="forgot-password-container">
+                        <span class="forgot-password-text">Forgot Password ?</span>
+                    </div>
                     <div class="login-btn-container">
                         <Button class="login-btn"  name="username" > Login </Button>
                     </div>  
