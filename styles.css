@@ -42,17 +42,17 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: solid gray;
+    border: solid transparent;
     border-width: 2px;
     transition: 1s;
 }
 .user-name-text:hover {
     border: solid gray;
-    border-width: 4px;
+    border-width: 2px;
 }
 .password-text:hover {
     border: solid gray;
-    border-width: 4px;
+    border-width: 2px;
 }
 .text-input {
     border-width: 0px;
@@ -76,6 +76,9 @@ body {
     justify-content: center;
     border: solid green;
     border-width: 2px;
+}
+.login-btn-container:hover {
+    background: linear-gradient(90deg, rgba(235,3,222,0.8855917366946778) 27%, rgba(44,4,246,0.9836309523809523) 100%);
 }
 .login-btn {
     border-width: 0px;
