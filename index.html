@@ -170,6 +170,19 @@
             color:rgb(19, 4, 3);
             padding-right: 5px;
         }
+        .required-field {
+            padding-right: 20px;
+            color:red;
+            font-weight: bold;
+            display: none;
+        }
+        .blue-icon-1 {
+            position: absolute;
+            top: 3%;
+            left: 2px;
+            width: 500px;
+            z-index: -1;
+        }
         a{
             color: rgba(1, 1, 1, 0);
         }
@@ -194,11 +207,20 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+                align-items: center;
+            }
+            .required-field {
+                padding-right: 10px;
+                color:red;
+                font-weight: bold;
+                display: none;
+                font-size: 10px;
             }
         }
 
     </style>
     <body>
+        <img class="blue-icon-1" src="./Images/Icon_1.png" />
         <div class="container">
             <div class="login-form-container">
                 <form class="login-form">
@@ -214,7 +236,11 @@
                     </div>
                     <div class="input-area">
                         <i class="fa fa-user"></i>
-                        <input class="text-input" type="text" name="username" placeholder="Enter username">
+                        <input class="text-input" type="text" id="username" oninput="loginAction()" name="username" placeholder="Enter username" />
+                        <span id="username-required-field" class="required-field">
+                            <i class="fa fa-exclamation"></i>
+                            This field is required
+                        </span>
                     </div>                   
                     <div class="info-text">
                         <span class="text">
@@ -223,13 +249,17 @@
                     </div>
                     <div class="input-area">
                         <i class="fa fa-lock"></i>
-                        <input class="text-input" type="password" name="username" placeholder="Enter password">
+                        <input class="text-input" type="password" id="password" oninput="loginAction()" name="password" placeholder="Enter password">
+                        <span id="password-required-field" class="required-field">
+                            <i class="fa fa-exclamation"></i>
+                            This field is required
+                        </span>
                     </div> 
                     <div class="forgot-password-container">
                         <span class="forgot-password-text">Forgot Password ?</span>
                     </div>
                     <div class="login-btn-container">
-                        <Button class="login-btn"  name="username" > Login </Button>
+                        <Button class="login-btn" onclick="loginAction()"> Login </Button>
                     </div>  
                     <div class="other-optn">
                         <span class="text">
@@ -259,5 +289,23 @@
                 </form>
             </div>
         </div>
+        <script>
+            function loginAction() {
+                let userName = document.getElementById('username').value;
+                if(userName === "") {
+                    document.getElementById("username-required-field").style.display = "block";
+                }
+                else{
+                    document.getElementById("username-required-field").style.display = "none";
+                }
+                let userPassword = document.getElementById('password').value;
+                if(userPassword === "") {
+                    document.getElementById("password-required-field").style.display = "block";
+                }
+                else{
+                    document.getElementById("password-required-field").style.display = "none";
+                }
+            }
+        </script>
     </body>
 </html>
