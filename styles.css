@@ -1,269 +1,273 @@
 
-        body {
-            background: linear-gradient(90deg, rgba(235,3,222,0.8855917366946778) 27%, rgba(44,4,246,0.9836309523809523) 100%);
-            font-family: Poppins-Regular, sans-serif;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        }
-        .container {
-            position: absolute;
-            top: 10%;
-            background-color: white;
-            border-radius: 10px;
-            width: 100vh;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            transition: 1s;
-            z-index: 1;
-        }
-        .login-title {
-            text-align: center;
-            font-weight: bold;
-            font-size: 30px;
-            padding: 25px;
-        }
-        .info-text {
-            font-weight: bold;
-            font-size: 18px;
-            color: rgb(80, 78, 78);
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-        .input-area {
-            background-color:whitesmoke;
-            width: 100%;
-            height: 6vh;
-            border-radius: 20px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            border: solid gray;
-            border-width: 2px;
-            transition: 1s;
-        }
-        .user-name-text:hover {
-            border: solid gray;
-            border-width: 4px;
-        }
-        .password-text:hover {
-            border: solid gray;
-            border-width: 4px;
-        }
-        .text-input {
-            border-width: 0px;
-            background-color: rgba(1, 1, 1, 0);
-            color: black;
-            font-size: 15px;
-        }
-        .text-input:focus {
-            outline: none;
-        }
-        .login-btn-container {
-            background-color: rgb(113, 235, 57);
-            margin-top: 5%;
-            margin-bottom: 5%;
-            width: 100%;
-            height: 6vh;
-            border-radius: 20px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            border: solid green;
-            border-width: 2px;
-        }
-        .login-btn {
-            border-width: 0px;
-            background-color: rgba(1, 1, 1, 0);
-            color: black;
-            font-size: 20px;
-            font-weight: bold;
-        }
-        .login-btn:focus {
-            outline: none;
-        }
-        .forgot-password-container {
-            text-align: right;
-            padding-top: 10px;
-        }
-        .forgot-password-text {
-            font-weight: bold;
-            color: gray;
-        }
-        .fa {
-            padding: 15px;
-        }
-        .other-optn {
-            text-align: center;
-            padding: 5px;
-        }
+body {
+    background: linear-gradient(90deg, rgba(235,3,222,0.8855917366946778) 27%, rgba(44,4,246,0.9836309523809523) 100%);
+    font-family: Poppins-Regular, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    position: absolute;
+    top: 10%;
+    background-color: white;
+    border-radius: 10px;
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    z-index: 1;
+}
+.login-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 25px;
+}
+.info-text {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(80, 78, 78);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.input-area {
+    background-color:whitesmoke;
+    width: 100%;
+    height: 6vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: solid gray;
+    border-width: 2px;
+    transition: 1s;
+}
+.user-name-text:hover {
+    border: solid gray;
+    border-width: 4px;
+}
+.password-text:hover {
+    border: solid gray;
+    border-width: 4px;
+}
+.text-input {
+    border-width: 0px;
+    background-color: rgba(1, 1, 1, 0);
+    color: black;
+    font-size: 15px;
+}
+.text-input:focus {
+    outline: none;
+}
+.login-btn-container {
+    background-color: rgb(113, 235, 57);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 6vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: solid green;
+    border-width: 2px;
+}
+.login-btn {
+    border-width: 0px;
+    background-color: rgba(1, 1, 1, 0);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login-btn:focus {
+    outline: none;
+}
+.forgot-password-container {
+    text-align: right;
+    padding-top: 10px;
+}
+.forgot-password-text {
+    font-weight: bold;
+    color: gray;
+}
+.fa {
+    padding: 15px;
+}
+.other-optn {
+    text-align: center;
+    padding: 5px;
+}
 
-        .extra-link {
-            text-align: center;
-            padding: 5px;
-        }
-        .extra-link-text{
-            color: gray;
-        }
+.sign-up-link {
+    text-align: center;
+    padding: 5px;
+}
+.extra-link-text{
+    color: gray;
+}
 
-        .social-media-login {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
+.social-media-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-        .social-media-login-facebook {
-            margin-top: 5%;
-            margin-bottom: 5%;
-            margin-right: 5px;
-            height: 6vh;
-            width: 25vh;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            background-color: white;
-            border-radius: 10px;
-            border: solid rgba(9,217,193,1);
-            border-width: 2px;
-            opacity: 0.8;
-            transition: 2s;
-        }
-        .social-media-login-facebook:hover {
-            background: radial-gradient(circle, rgba(9,217,193,1) 31%, rgba(3,149,235,1) 71%, rgba(2,133,244,1) 85%);
-            opacity: 1;
-        }
-        .social-media-login-github {
-            margin-top: 5%;
-            margin-bottom: 5%;
-            margin-left: 5px;
-            height: 6vh;
-            width: 25vh;
-            border-radius: 10px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            border: solid rgba(235,34,3,1);
-            border-width: 2px;
-            opacity: 0.8;
-            transition: 2s;
-        }
-        .social-media-login-github:hover {
-            background: radial-gradient(circle, rgba(238,238,232,1) 7%, rgba(0,0,0,1) 100%);
-            opacity: 1;
-        }
-        .social-media-login-facebook > .info-text{
-            font-size: 15px;
-            padding-right: 10px;
-            color: black;
-        }
-        .social-media-login-github > .info-text{
-            font-size: 15px;
-            padding-right: 10px;
-            color: black;
-        }
-        .fa-facebook-official {
-            color:rgb(4, 72, 161);
-            padding-right: 5px;
-        }
-        .fa-github {
-            color:rgb(19, 4, 3);
-            padding-right: 5px;
-        }
-        .required-field {
-            padding-right: 20px;
-            color:red;
-            font-weight: bold;
-            display: none;
-        }
-        .blue-icon-1 {
-            position: absolute;
-            top: 3%;
-            left: 2px;
-            width: 500px;
-            z-index: -1;
-        }
-        a{
-            color: rgba(1, 1, 1, 0);
-        }
-        
-        @media only screen and (max-width: 992px) {
-            .container {
-                width: 90%;
-            }
-            .social-media-login-facebook {
-                width: 50vh;
-                margin-right: 0px;
-            }
-            .social-media-login-github {
-                width: 50vh;
-                margin-left: 0px;
-            }
-            .social-media-login {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .required-field {
-                padding-right: 10px;
-                color:red;
-                font-weight: bold;
-                display: none;
-                font-size: 10px;
-            }
-        }
-        @media only screen and (min-width: 992px) {
-            .round-icon-1 {
-                position: absolute;
-                width: 25%;
-                height: 50%;
-                background: radial-gradient(circle, rgba(87,153,237,0.6558998599439776) 7%, rgba(213,17,242,0.9780287114845938) 100%);position: absolute;
-                left: 10px;
-                top: 10px;
-                border-radius: 100%;
-            }
-            .round-icon-2 {
-                position: absolute;
-                width: 25%;
-                height: 50%;
-                background: radial-gradient(circle, rgba(87,153,237,0.6558998599439776) 7%, rgba(213,17,242,0.9780287114845938) 100%);position: absolute;
-                left: 180px;
-                top: 300px;
-                border-radius: 100%;
-            }
-            .round-icon-3 {
-                position: absolute;
-                width: 25%;
-                height: 50%;
-                background: radial-gradient(circle, rgba(87,153,237,0.6558998599439776) 7%, rgba(213,17,242,0.9780287114845938) 100%);position: absolute;
-                left: -100px;
-                top: 300px;
-                border-radius: 100%;
-            }
-            .round-icon-4 {
-                position: absolute;
-                width: 25%;
-                height: 50%;
-                background: radial-gradient(circle, rgba(87,153,237,0.6558998599439776) 7%, rgba(213,17,242,0.9780287114845938) 100%);position: absolute;
-                left: 400px;
-                top: -40px;
-                border-radius: 100%;
-            }
-            .round-icon-5 {
-                position: absolute;
-                width: 25%;
-                height: 50%;
-                background: radial-gradient(circle, rgba(87,153,237,0.6558998599439776) 7%, rgba(213,17,242,0.9780287114845938) 100%);position: absolute;
-                left: 550px;
-                top: 300px;
-                border-radius: 100%;
-            }
-        }
+.social-media-login-facebook {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5px;
+    height: 6vh;
+    width: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    border: solid rgba(9,217,193,1);
+    border-width: 2px;
+    opacity: 0.8;
+    transition: 2s;
+}
+.social-media-login-facebook:hover {
+    background: radial-gradient(circle, rgba(9,217,193,1) 31%, rgba(3,149,235,1) 71%, rgba(2,133,244,1) 85%);
+    opacity: 1;
+}
+.social-media-login-github {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5px;
+    height: 6vh;
+    width: 25vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: solid rgba(235,34,3,1);
+    border-width: 2px;
+    opacity: 0.8;
+    transition: 2s;
+}
+.social-media-login-github:hover {
+    background: radial-gradient(circle, rgba(238,238,232,1) 7%, rgba(0,0,0,1) 100%);
+    opacity: 1;
+}
+.social-media-login-facebook > .info-text{
+    font-size: 15px;
+    padding-right: 10px;
+    color: black;
+}
+.social-media-login-github > .info-text{
+    font-size: 15px;
+    padding-right: 10px;
+    color: black;
+}
+.fa-facebook-official {
+    color:rgb(4, 72, 161);
+    padding-right: 5px;
+}
+.fa-github {
+    color:rgb(19, 4, 3);
+    padding-right: 5px;
+}
+.required-field {
+    padding-right: 20px;
+    color:red;
+    font-weight: bold;
+    display: none;
+}
+.blue-icon-1 {
+    position: absolute;
+    top: 3%;
+    left: 2px;
+    width: 500px;
+    z-index: -1;
+}
+a{
+    color: rgba(1, 1, 1, 0);
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 90%;
+        top: 5%;
+        margin-bottom: 5%;
+        padding: 10px;
+    }
+    .social-media-login-facebook {
+        width: 50vh;
+        margin-right: 0px;
+    }
+    .social-media-login-github {
+        width: 50vh;
+        margin-left: 0px;
+    }
+    .social-media-login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .required-field {
+        padding-right: 10px;
+        color:red;
+        font-weight: bold;
+        display: none;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .round-icon-1 {
+        position: absolute;
+        width: 25%;
+        height: 50%;
+        background: radial-gradient(circle, rgba(87,153,237,0.6558998599439776) 7%, rgba(213,17,242,0.9780287114845938) 100%);position: absolute;
+        left: 10px;
+        top: 10px;
+        border-radius: 100%;
+    }
+    .round-icon-2 {
+        position: absolute;
+        width: 25%;
+        height: 50%;
+        background: radial-gradient(circle, rgba(87,153,237,0.6558998599439776) 7%, rgba(213,17,242,0.9780287114845938) 100%);position: absolute;
+        left: 180px;
+        top: 300px;
+        border-radius: 100%;
+    }
+    .round-icon-3 {
+        position: absolute;
+        width: 25%;
+        height: 50%;
+        background: radial-gradient(circle, rgba(87,153,237,0.6558998599439776) 7%, rgba(213,17,242,0.9780287114845938) 100%);position: absolute;
+        left: -100px;
+        top: 300px;
+        border-radius: 100%;
+    }
+    .round-icon-4 {
+        position: absolute;
+        width: 25%;
+        height: 50%;
+        background: radial-gradient(circle, rgba(87,153,237,0.6558998599439776) 7%, rgba(213,17,242,0.9780287114845938) 100%);position: absolute;
+        left: 400px;
+        top: -40px;
+        border-radius: 100%;
+    }
+    .round-icon-5 {
+        position: absolute;
+        width: 25%;
+        height: 50%;
+        background: radial-gradient(circle, rgba(87,153,237,0.6558998599439776) 7%, rgba(213,17,242,0.9780287114845938) 100%);position: absolute;
+        left: 550px;
+        top: 300px;
+        border-radius: 100%;
+    }
+}
        
