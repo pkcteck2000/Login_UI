@@ -1,4 +1,4 @@
-function loginAction() {
+const loginAction = () => {
     let userName = document.getElementById('username').value;
     if(userName === "") {
         document.getElementById("username-required-field").style.display = "block";

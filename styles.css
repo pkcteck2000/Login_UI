@@ -44,6 +44,15 @@
             justify-content: center;
             border: solid gray;
             border-width: 2px;
+            transition: 1s;
+        }
+        .user-name-text:hover {
+            border: solid gray;
+            border-width: 4px;
+        }
+        .password-text:hover {
+            border: solid gray;
+            border-width: 4px;
         }
         .text-input {
             border-width: 0px;
@@ -183,11 +192,7 @@
         a{
             color: rgba(1, 1, 1, 0);
         }
-        @media only screen and (max-width: 600px) {
-            .container {
-                width: 100%;
-            }
-        }
+        
         @media only screen and (max-width: 992px) {
             .container {
                 width: 90%;
